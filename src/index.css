@@ -1,0 +1,23 @@
+:root {
+  --text: #374151;
+  --text-h: #08060d;
+  --bg: #ffffff;
+  --border: #e5e7eb;
+  font: 16px/150% system-ui, 'Segoe UI', Roboto, sans-serif;
+  color-scheme: light;
+  color: var(--text);
+  background: var(--bg);
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2 {
+  color: var(--text-h);
+}
+
+button {
+  font: inherit;
+}
